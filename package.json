@@ -5,7 +5,10 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "yarn eslint src/** --fix",
+    "test": "vitest"
+  },
   "author": "Matheus S M Mota",
   "license": "ISC",
   "dependencies": {},
@@ -19,6 +22,7 @@
     "prettier": "^3.3.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^7.16.0"
+    "typescript-eslint": "^7.16.0",
+    "vitest": "^2.0.2"
   }
 }
